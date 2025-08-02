@@ -2,26 +2,16 @@
     margin: 0;
     padding: 0;
 }
-body{
-    
-    height: 440px;
-    width:550px;
-    object-fit: cover;
-    background-size:auto;
-}
 body div.img{
     display: flex;
     background-image: url(kingscross.jpeg);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: top left;
     background-clip:border-box;
-    border: 2px solid black;
-    object-position: center;
-    object-fit: contain;
     height: 99.5vh;
     width: 99.7vw;
-   
+    
 }
 body .img .text{
     background-image: url(express.jpg);
@@ -35,7 +25,7 @@ body .img .text{
     width:50vw;
     align-items: center;
     justify-content: center;
-
+    
 }
 body .img .text .holder{
     display: flex;
@@ -44,7 +34,7 @@ body .img .text .holder{
     align-items: top;
     border: 2px solid black;
     height:12vw ;
-    width:25vw;
+    width: 35vw;
     background-color: rgb(41, 38, 38);
     color:red
 }
@@ -52,14 +42,14 @@ body .img .text .holder .info{
     display: flex;
     position: relative;
     top: 20px;
-    left: 65px;
+    left: 145px;
 }
 
 body .img .text .holder #count{
     font-size: xx-large;
     position: relative;
     display: flex;
-    left: -65px;
+    left: 20px;
     top:60px;
     align-items: top;
     justify-content: center;
@@ -84,4 +74,10 @@ button{
 }
 body .img .text .holder #increment{
     background-color: rgb(119, 8, 8);
+}
+
+body .img .text .holder #saved{
+    position:relative;
+    left: -107px;
+    background-color: rgb(13, 78, 37);
 }
